@@ -54,6 +54,9 @@ width:100%;margin-right: 100px;
 .dif3{
     background-image: url('../Images/home/qualidade.jpg');
 }
+.div-fluid{
+    width: 300px;
+}
 .promovemos{
     margin-top: 150px;
     text-align: center;
@@ -72,6 +75,9 @@ width:100%;margin-right: 100px;
     right:0;
     border-right:2px solid rgb(212, 205, 205);
     height:60%;
+}
+.container-projetos-realizados{
+    padding-left: 14%;
 }
 
 
@@ -132,6 +138,12 @@ width:100%;margin-right: 100px;
     }
     .carrossel{
         width: 100%;
+    }
+    .container-projetos-realizados{
+        padding-left: 0%;
+    }
+    .div-fluid{
+        width: auto;
     }
     
     .cartoes-projetos-realizados{
