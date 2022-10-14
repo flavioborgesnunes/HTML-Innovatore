@@ -1,0 +1,96 @@
+.nossa-equipe{
+    background-image: url('../Images/nossa_equipe/nossa-equipe.jpg');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+}
+.diferenciais{
+    height: 380px;
+    background-size: contain;
+}
+.diferenciais h1{
+    margin-top: 70%;
+    color: white;
+    text-align: left;
+}
+.diferenciais p{
+    color: white;
+    text-align: left;
+}
+.dif1{
+    background-image: url('../Images/home/profissionais.jpg');
+}
+.dif2{
+    background-image: url('../Images/home/seguranca.jpg');
+}
+.dif3{
+    background-image: url('../Images/home/qualidade.jpg');
+}
+.centro{
+    text-align: center;
+}
+.seguranca{
+    background-image: url('../Images/nossa_equipe/trabalhamos-com-seguranca.jpg');
+    margin: 0%;
+    margin-top: 150px;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+}
+.div-seguranca{
+    padding-right: 150px;
+}
+.texto-seguranca{
+    color: white;
+}
+.promovemos{
+    margin-top: 150px;
+    text-align: center;
+}
+.horas-trabalhadas{
+    border-bottom: 2px solid rgb(212, 205, 205);
+}
+.borda-esquerda::after{
+  content:"";
+  position:absolute;
+  z-index:1;
+  bottom:20%;
+  right:0;
+  border-right:2px solid rgb(212, 205, 205);
+  height:60%;
+}
+.acidentes{
+    border-bottom: 2px solid rgb(212, 205, 205);
+}
+
+@media screen and (max-width: 1000px){
+    .nossa-equipe{
+        background-image: url('../Images/nossa_equipe/nossa-equipe-mob.jpg');
+        text-align: center;
+        margin-top: 50%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 550px;
+    }
+    .dif1{
+        background-image: url('../Images/home/profissionais.jpg');
+        height: 508px;
+    }
+    .dif2{
+        background-image: url('../Images/home/seguranca.jpg');
+        height: 508px;
+    }
+    .dif3{
+        background-image: url('../Images/home/qualidade.jpg');
+        height: 508px;
+    }
+    .borda-esquerda::after{
+        border: none;
+    }
+}

@@ -1,0 +1,86 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .itens{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom: 2px solid grey;
+    padding-left: 0px;
+  }
+  @media screen and (max-width:1000px){
+    .itens{
+      margin-left: 30px;
+      margin-right: 0px;
+    }
+  }
+  .dropdown-menu{
+    border:none;
+  }
+  .txt{
+    color: #0C274E;
+  }
+
+</style>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid itens">
+      <a class="navbar-brand" href="#"><img src="./images/LOGO INNOVATORE(home).png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active txt" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                A Innovatore
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Missão, visão e valores</a></li>
+              <li><a class="dropdown-item" href="#">Certificações</a></li>
+              <li><a class="dropdown-item" href="#">Nossa história</a></li>
+              <li><a class="dropdown-item" href="#">Nossa equipe</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link txt" href="#">Clientes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projetos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Industriais</a></li>
+              <li><a class="dropdown-item" href="#">Comerciais</a></li>
+              <li><a class="dropdown-item" href="#">Logísticos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Centro de Mídia
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contatos</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Trabalhe conosco</a></li>
+              <li><a class="dropdown-item" href="#">Vagas de trabalho</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex formulario" role="search" >
+          <input class="form-control me-2" type="search" aria-label="Search">
+          <buttonn type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            </button>
+        </form>
+      </div>
+    </div>
+  </nav>

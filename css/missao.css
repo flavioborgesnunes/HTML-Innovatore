@@ -1,0 +1,92 @@
+.missao{
+    background-image: url('../Images/missao/missao.jpg');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+}
+.missao-img{
+    width: 100%;
+}
+.nossa-visao{
+    margin:0%;
+    margin-top: 150px;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background: url('../Images/missao/nossa-visao.jpg');
+    background-size: cover;
+}
+.div-visao{
+    padding-right: 100px;
+}
+.texto-visao{
+    color: white;
+}
+.valores{
+    margin-top: 150px;
+}
+.div-valores{
+    margin-bottom: 40px;
+}
+.imgs{
+    width: 100%;
+}
+.valores-h1{
+    margin-bottom: 50px;
+}
+.texto-valores{
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+    }
+    .missao{
+        background-image: url('../Images/missao/missao-mob.jpg');
+        text-align: center;
+        margin-top: 50%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 550px;
+    }
+    .titulo{
+        margin-top: -250px;
+        font-size: 36px;
+    }
+    .nossa-visao{
+        text-align: center;
+        margin-top: 20px;
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        background: url('../Images/missao/nossa-visao-mob.jpg');
+        background-size: cover;
+        }
+    .nossa-missao{
+        margin: 0;
+    }
+    .texto-visao{
+        margin-left: 70px;
+        text-align: center;
+    }
+    .valores{
+        margin-top: 50px;
+    }
+    .texto-valores{
+        margin-top: -40px;
+        color: white;
+        margin-left: 0px;
+    }
+}
