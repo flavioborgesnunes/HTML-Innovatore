@@ -8,23 +8,29 @@ body{
 h1{
     color: #0C274E;
     font-size: 2.7vw;
+    font-weight: 400;
 }
 h2{
     color:#0C274E;
+    font-weight: 400;
     font-size: 2vw;
 }
 h3{
     color:#0C274E;
+    font-weight: 400;
     font-size: 2vw;
 }
 h4{
     color:#0C274E;
+    font-weight: 400;
 }
 h5{
     color:#0C274E;
+    font-weight: 400;
 }
 h6{
     color:#0C274E;
+    font-weight: 400;
 }
 p{
     color: #0C274E;
@@ -53,14 +59,26 @@ p{
 }
 .itens{
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left:200px;
+    margin-right:200px;
     border-bottom: 1px solid rgba(12, 39, 78, .25);
     padding-left: 30px;
-  }
+    padding-bottom: 30px;
+}
+#logo-nav{ position: relative;
+    bottom: -10px;
+    margin-left: -45px;
+    padding-right: 10%;
+    margin-bottom: -30px;
+}
+.itens-texto{
+    margin-bottom: -60px !important;
+}
 .item-nav-selecionado{ 
-    /* border-bottom: 2px solid gray; */
     font-weight: bolder;
+    border-bottom: 2px solid #0C274E;
+    
+    
 }
 .nav-menu{
     text-align: left;

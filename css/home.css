@@ -11,6 +11,11 @@
 .margem{
     margin-top: 25vh;
 }
+.head-itens{
+    padding-left:7%;
+    padding-right:10%;
+    padding-top: 10vh;
+}
 .img-home2{
 width:100%;margin-right: 100px;
 }
