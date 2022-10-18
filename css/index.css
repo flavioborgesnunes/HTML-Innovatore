@@ -147,12 +147,24 @@ footer{
 }
 .footer-p{
     color: white;
+    font-size: 14px;
+}
+.footer-p-cnpj{
+    margin-top: -15px;
+    color: white;
+    font-size: 14px;
+}
+.footer-p-tel{
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
 }
 .footer-h4{
     color:white;
     margin-top: 20px;
     margin-bottom: 50px;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 20px;
 }
 .logo-footer{
     margin-left: -20px;
@@ -161,19 +173,17 @@ footer{
 }
 
 .footer-1{
+    padding-bottom: 50px;
     border-bottom:2px solid gray;
 }
 .links-footer{ 
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     line-height: 2;
 }
 .links-footer:hover{ 
     text-decoration: none;
-}
-.missao-link-footer{
-    width: 230px;
 }
 .inscreva-se{
     color: white;
@@ -182,7 +192,7 @@ footer{
     margin-bottom: 35px;
 }
 .input-footer{
-    height: 33px;
+    height: 38px;
     width: 280px;
     margin-left: 30px;
 }
@@ -216,12 +226,25 @@ footer{
         position: static;
     }
     .itens{
-      margin-left: 30px;
-      margin-right: 0px;
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: auto;
+        border-bottom: 1px solid rgba(12, 39, 78, .25);
+        padding-left: 30px;
+        padding-bottom: 00px;
     }
   
     .dropdown-menu{
         border:none;
+    }
+    #logo-nav{ position: relative;
+        bottom: auto;
+        margin-left: 0px;
+        padding-right: auto;
+        margin-bottom: 0px;
+    }
+    .itens-texto{
+        margin-bottom: 0px;
     }
     .txt{
         color: #0C274E;
@@ -242,26 +265,49 @@ footer{
         padding-left: 10%;
         padding-right: 10%;
     }
+    footer{
+        padding: 10%;
+    }
+    .logo-footer{
+        width: 250px;
+    }
     .footer-1{
         text-align: center;
         height:max-content;
     }
     .divisoes-footer{
         margin-left: 0px;
-        margin-top: 25px;
+        margin-top: 40px;
     }
     .footer-h4{
         margin-top: 0px;
         margin-bottom: 0px;
     }
     .footer-p{
-        font-size: 18px;
+        font-size: 14px;
     }
-    .missao-link-footer{
-        margin-left: 80px;
+    .p-mob{
+        margin-top: 15px;
+    }
+    .footer-p-contato{
+        font-size: 14px;
+    }
+    .footer-p-tel{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .inscreva-se{
+        color: white;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-bottom: 35px;
+    }
+    .input-footer{
+        height: 38px;
+        width: 200px;
+        margin-left: 00px;
     }
     .redes-sociais{
         text-align: center;
-        
     }
 }
