@@ -27,11 +27,13 @@ width:100%;margin-right: 100px;
     text-align: center;
     margin-top: 150px;
 }
-.carrossel{
-    width: 800px;
+.carousel{
+    width: 100%;
 }
 .card{
     border:none;
+    height: 250px;
+    padding: 10px 0;
 }
 
 .altura-cards-projetos{
@@ -98,7 +100,18 @@ width:100%;margin-right: 100px;
     color: white;
 }
 .video{
-    width:930px;
+    width:860px;
+}
+.container-carousel{
+    width: 800px;
+    margin-left: -70px;
+}
+.slick-prev.slick-arrow:before{
+    color: transparent;
+    
+}
+.slick-next.slick-arrow:before{
+    color: rgb(212, 205, 205);
 }
 @media screen and (max-width: 1000px){
     .secao-1{
@@ -145,9 +158,6 @@ width:100%;margin-right: 100px;
     .div-cartoes{
         width:100%;
     }
-    .carrossel{
-        width: 100%;
-    }
     .container-projetos-realizados{
         padding-left: 0%;
     }
@@ -191,5 +201,13 @@ width:100%;margin-right: 100px;
     }
     .video{
         width: 100%;
+    }
+    .container-carousel{
+        width: 370px;
+        margin-left: 20px;
+    }
+    .slick-prev.slick-arrow:before{
+        color:rgb(212, 205, 205);
+        
     }
 }
