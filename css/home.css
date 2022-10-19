@@ -113,6 +113,15 @@ width:100%;margin-right: 100px;
 .slick-next.slick-arrow:before{
     color: rgb(212, 205, 205);
 }
+.anime{
+    opacity: 0;
+    transform: translate3d(0, 200, 200);
+    transition: 1.8s;
+}
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
 @media screen and (max-width: 1000px){
     .secao-1{
         text-align: center;
