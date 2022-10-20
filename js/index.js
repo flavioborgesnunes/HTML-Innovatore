@@ -1,9 +1,6 @@
 window.onload = function init() {
     
-        // $('.secao-1').removeClass(anime);
-        // $('.secao-1').addClass(animationClass);
     
-
     let mobile = $('body').width();
 
     if (mobile < 1000) {
@@ -37,6 +34,7 @@ window.onload = function init() {
 
     function animeScroll(){
         var documentTop = $(document).scrollTop();
+        // $('.secao-1').addClass(animationClass);
     
         $target.each(function(){
             var itemTop = $(this).offset().top;
@@ -47,29 +45,16 @@ window.onload = function init() {
             }
         });
     }
-
-
-    // var btnMenu = $('.voltar-topo'),
-    //     btnAnimado = ('.voltar-topo-1');
-    // function animeMenu(){
-    //     var documentTop = $(document).scrollTop();
-
-    //     btnMenu(function(){
-    //         if (documentTop > 1000){
-    //             $(this).addClass(btnAnimado);
-    //         }else{
-    //             $(this).removeClass(btnAnimado);
-    //         }
-    //     });
-    // }
-    // animeMenu();
     
-    
-   
+    function titulo(){
+        $(document).ready(function(){
+            $('.topo').addClass(animationClass)
+        });
+    }
+    titulo();
     $(document).scroll(function(){
         animeScroll()
     });
-
     
 };
 

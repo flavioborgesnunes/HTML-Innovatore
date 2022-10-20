@@ -7,6 +7,9 @@
     width: 100%;
     margin-top: 0px;
 }
+.borderbox{
+    border: 2px solid red;
+}
 .voltar-topo{
     position:fixed;
     z-index: 100;
@@ -33,7 +36,8 @@
     padding-top: 10vh;
 }
 .img-home2{
-width:100%;margin-right: 100px;
+width:100%;
+margin-right: 100px;
 }
 .primeiro-paragrafo{
     padding-left: 8%;
