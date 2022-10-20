@@ -56,11 +56,12 @@ p{
     position:absolute;
     width: 100%;
     align-items: center;
+    z-index: 100;
 }
 .itens{
     margin-top: 0px;
-    margin-left:230px;
-    margin-right:230px;
+    margin-left:200px;
+    margin-right:200px;
     border-bottom: 1px solid rgba(12, 39, 78, .25);
     padding-left: 30px;
     padding-bottom: 30px;
@@ -68,7 +69,7 @@ p{
 #logo-nav{ position: relative;
     bottom: -10px;
     margin-left: -50px;
-    padding-right: 10%;
+    padding-right: 5%;
     margin-bottom: -30px;
 }
 .itens-texto{
@@ -201,6 +202,17 @@ footer{
 }
 .redes-sociais-icones{
     width: 30px;
+}
+.anime{
+    opacity: 0;
+    transform: translate(0px, 20px);
+    transition: .8s;
+    z-index: 100;
+}
+.anime-start{
+    opacity: 1;
+    z-index: 100;
+    transform: translate3d(0,0,0);
 }
 
 @media screen and (max-width:1000px){

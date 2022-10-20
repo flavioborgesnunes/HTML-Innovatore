@@ -7,6 +7,22 @@
     width: 100%;
     margin-top: 0px;
 }
+.voltar-topo{
+    position:fixed;
+    z-index: 100;
+    bottom: 100px;
+    right: 20px;
+    opacity: 0;
+    transition: .5s;
+}
+.voltar-topo-1{
+    position:fixed;
+    z-index: 100;
+    bottom: 100px;
+    right: 20px;
+    opacity: 1;
+}
+
 
 .margem{
     margin-top: 25vh;
@@ -99,7 +115,9 @@ width:100%;margin-right: 100px;
     color: white;
 }
 .video{
-    width:860px;
+    margin-top: 20px;
+    width:870px;
+    height: 110%;
 }
 .container-carousel{
     width: 800px;
@@ -115,15 +133,7 @@ width:100%;margin-right: 100px;
 .slick-next.slick-arrow:before{
     color: rgb(212, 205, 205);
 }
-.anime{
-    opacity: 0;
-    transform: translate3d(0, 200, 200);
-    transition: 1.8s;
-}
-.anime-start{
-    opacity: 1;
-    transform: translate3d(0,0,0);
-}
+
 @media screen and (max-width: 1000px){
     .secao-1{
         text-align: center;
@@ -212,6 +222,7 @@ width:100%;margin-right: 100px;
     }
     .video{
         width: 100%;
+        height: 300px;
     }
     .container-carousel{
         width: 370px;

@@ -1,4 +1,8 @@
 window.onload = function init() {
+    
+        // $('.secao-1').removeClass(anime);
+        // $('.secao-1').addClass(animationClass);
+    
 
     let mobile = $('body').width();
 
@@ -27,13 +31,6 @@ window.onload = function init() {
             });
         });
     }
-    $(document).ready(function(){
-        $('nav').fadeTo(1,0)
-        $('nav').fadeTo(2000,1)
-        $(".secao-1").fadeTo(1,0);
-        $(".secao-1").fadeTo(500,1);
-
-    });
     var $target = $('.anime'),
         animationClass = 'anime-start',
         offset = $(window).height() * 3/4;
@@ -50,8 +47,36 @@ window.onload = function init() {
             }
         });
     }
-    animeScroll();
+
+
+    // var btnMenu = $('.voltar-topo'),
+    //     btnAnimado = ('.voltar-topo-1');
+    // function animeMenu(){
+    //     var documentTop = $(document).scrollTop();
+
+    //     btnMenu(function(){
+    //         if (documentTop > 1000){
+    //             $(this).addClass(btnAnimado);
+    //         }else{
+    //             $(this).removeClass(btnAnimado);
+    //         }
+    //     });
+    // }
+    // animeMenu();
+    
+    
+   
     $(document).scroll(function(){
         animeScroll()
     });
+
+    
 };
+
+
+
+function subir(){
+    $( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: 0}, 600, function() {
+        $(document).scrollTop(0)
+    });
+}
