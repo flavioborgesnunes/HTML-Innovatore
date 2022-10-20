@@ -34,7 +34,6 @@ window.onload = function init() {
 
     function animeScroll(){
         var documentTop = $(document).scrollTop();
-        // $('.secao-1').addClass(animationClass);
     
         $target.each(function(){
             var itemTop = $(this).offset().top;
@@ -44,24 +43,32 @@ window.onload = function init() {
                 $(this).removeClass(animationClass);
             }
         });
-    }
+    } 
     
     function titulo(){
         $(document).ready(function(){
             $('.topo').addClass(animationClass)
         });
-    }
+    } 
     titulo();
+    function voltarMenu(){
+        var documentTop = $(document).scrollTop();
+            if (documentTop > 500){
+                $('.voltar-topo').css('opacity',1)
+            }else{
+                $('.voltar-topo').css('opacity',0)
+            }
+    }
     $(document).scroll(function(){
+        voltarMenu();
         animeScroll()
     });
-    
 };
-
-
-
+    
 function subir(){
     $( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: 0}, 600, function() {
         $(document).scrollTop(0)
     });
 }
+voltarMenu();
+

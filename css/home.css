@@ -16,6 +16,7 @@
     bottom: 100px;
     right: 20px;
     opacity: 0;
+    z-index: 100;
     transition: .5s;
 }
 .voltar-topo-1{
@@ -23,6 +24,7 @@
     z-index: 100;
     bottom: 100px;
     right: 20px;
+    z-index: 100;
     opacity: 1;
 }
 
