@@ -10,7 +10,7 @@
 .voltar-topo{
     position:fixed;
     z-index: 100;
-    bottom: 100px;
+    bottom: 25px;
     right: 20px;
     opacity: 0;
     z-index: 100;
@@ -19,7 +19,7 @@
 .voltar-topo-1{
     position:fixed;
     z-index: 100;
-    bottom: 100px;
+    bottom: 25px;
     right: 20px;
     z-index: 100;
     opacity: 1;
@@ -78,13 +78,20 @@ margin-right: 100px;
 .diferenciais{
     height: 380px;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .diferenciais h1{
-    margin-top: 70%;
+    margin-left: 20px;
+    padding-right:10px;
+    margin-top: 60%;
+    font-size: 1.354vw;
     color: white;
     text-align: left;
 }
 .diferenciais p{
+    margin-left: 20px;
+    padding-right:100px;
+    font-size: 0.73vw;
     color: white;
     text-align: left;
 }
@@ -99,6 +106,13 @@ margin-right: 100px;
 }
 .div-fluid{
     width: 300px;
+}
+.links-brancos{
+    color: white;
+}
+.links-brancos:hover{
+    color: white;
+    text-decoration: none;
 }
 .promovemos{
     margin-top: 150px;
@@ -136,8 +150,8 @@ margin-right: 100px;
     color: white;
 }
 .video{
-    margin-top: 0px;
-    width:865px;
+    margin: 0px;
+    width: 53.7vw;
     height: 500px;
 }
 .container-carousel{
