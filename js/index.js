@@ -53,7 +53,7 @@ window.onload = function init() {
     titulo();
     function voltarMenu(){
         var documentTop = $(document).scrollTop();
-            if (documentTop > 500){
+            if (documentTop > 1000){
                 $('.voltar-topo').css('opacity',1)
             }else{
                 $('.voltar-topo').css('opacity',0)
