@@ -80,6 +80,9 @@ margin-right: 100px;
     padding-bottom: 20px;
     padding-right: 30px;
 }
+.numeros-2{
+    font-size: 70px;
+}
 .diferenciais{
     height: 380px;
     background-size: contain;
@@ -130,9 +133,6 @@ margin-right: 100px;
 }
 .horas-trabalhadas{
     border-bottom: 2px solid rgb(212, 205, 205);
-}
-.numeros{
-    font-size: 70px;
 }
 .borda-esquerda::after{
     content:"";
