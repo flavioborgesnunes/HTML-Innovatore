@@ -101,10 +101,10 @@ margin-right: 100px;
     text-align: left;
 }
 .dif1{
-    background-image: url('../Images/home/profissionai.jpeg');
+    background-image: url('../Images/home/profissionais.jpeg');
 }
 .dif2{
-    background-image: url('../Images/home/seguranca.jpeg');
+    background-image: url('../Images/home/segurança.jpeg');
 }
 .dif3{
     background-image: url('../Images/home/qualidade.jpeg');
@@ -141,8 +141,9 @@ margin-right: 100px;
 .container-projetos-realizados{
     padding-left: 20%;
 }
-
-
+.img-proj-real{
+    width: 125%;
+}
 .acidentes{
     border-bottom: 2px solid rgb(212, 205, 205);
 }
@@ -223,6 +224,9 @@ margin-right: 100px;
     .container-projetos-realizados{
         padding-left: 0%;
     }
+    .img-proj-real{
+        width:100%;
+    }
     .div-fluid{
         width: auto;
     }
@@ -232,18 +236,6 @@ margin-right: 100px;
         padding-left: 15px;
         margin-top: 40px;
         border-bottom: 2px solid rgb(212, 205, 205);
-    }
-    .dif1{
-        background-image: url('../Images/home/profissionais.jpg');
-        height: 508px;
-    }
-    .dif2{
-        background-image: url('../Images/home/seguranca.jpg');
-        height: 508px;
-    }
-    .dif3{
-        background-image: url('../Images/home/qualidade.jpg');
-        height: 508px;
     }
     .promovemos{
         margin-top: 150px;
