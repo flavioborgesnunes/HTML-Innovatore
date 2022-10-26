@@ -161,9 +161,7 @@ margin-right: 100px;
     color: white;
 }
 .video{
-    margin: 0px;
-    width: 53.7vw;
-    height: 500px;
+    margin-right:0px;
 }
 .container-carousel{
     width: 100%;
@@ -251,6 +249,28 @@ margin-right: 100px;
     }
     .borda-esquerda::after{
         border: none;
+    }
+    .diferenciais{
+        width: 100%;
+        height: auto;
+    }
+    .diferenciais h1{
+        padding-left: 10px;
+        margin-top: 80%;
+        font-size: 22px;
+        color: white;
+        text-align: left;
+    }
+    .diferenciais p{
+        padding: 10px;
+        font-size: 18px;
+        color: white;
+        text-align: left;
+    }
+    .diferenciais a{
+        font-size: 18px;
+        color: white;
+        text-align: left;
     }
     .acidentes{
         border-bottom: none;

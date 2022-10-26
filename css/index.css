@@ -237,11 +237,14 @@ footer{
     .navbar{
         position: static;
     }
+    .item-nav-selecionado{ 
+        font-weight: bolder;
+        border-bottom:none;
+    }
     .itens{
         margin-left: 30px;
         margin-right: 0px;
         margin-top: auto;
-        border-bottom: 1px solid rgba(12, 39, 78, .25);
         padding-left: 30px;
         padding-bottom: 00px;
     }
@@ -260,6 +263,9 @@ footer{
     }
     .txt{
         color: #0C274E;
+    }
+    .formulario{
+        margin-bottom: 70px;
     }
     .titulo{
         margin-top: -250px;
