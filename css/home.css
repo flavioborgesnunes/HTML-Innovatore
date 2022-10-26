@@ -75,6 +75,11 @@ margin-right: 100px;
     color: #0C274E;
     text-decoration: none;
 }
+.numeros{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
 .diferenciais{
     height: 380px;
     background-size: contain;
@@ -155,8 +160,8 @@ margin-right: 100px;
     height: 500px;
 }
 .container-carousel{
-    width: 1100px;
-    margin-left: -70px;
+    width: 100%;
+    margin-left: 70px;
 }
 .card-carousel{
     margin: 30px 0px;
