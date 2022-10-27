@@ -7,8 +7,17 @@
     width: 100%;
     margin-top: 0px;
 }
+.container-historia{
+    padding: 0 15%;
+}
 .anos{
     color: rgba(12, 39, 78, .6);
+}
+.texto{
+    padding-right: 5%;
+}
+.div-anos-pc{
+    line-height: 1em;
 }
 .div-anos-mob{
     visibility: hidden;
