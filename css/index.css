@@ -201,7 +201,8 @@ footer{
     text-align: right;
 }
 .redes-sociais-icones{
-    width: 30px;
+    width: 40px;
+    margin-left: 30px;
 }
 .anime{
     opacity: 0;
