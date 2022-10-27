@@ -7,9 +7,11 @@
     width: 100%;
     margin-top: 0px;
 }
+.paragrafo{
+    padding: 0px 70px;
+}
 .conheca{
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding:75px 8%;
     background-color: rgba(12,39,78, 0.05);
 }
 .marcas-img{
