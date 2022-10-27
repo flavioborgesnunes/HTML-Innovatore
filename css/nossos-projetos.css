@@ -17,6 +17,21 @@
     margin-left: 30%;
     text-align: center;
 }
+.ul-projetos{
+    margin-left: 22%;
+    margin-top: 50px;
+}
+.li-projetos{
+    display: inline-block;
+    padding: 0 50px;
+    list-style:circle;
+}
+.construimos{
+    font-size: 28px;
+    padding:0px 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 .projetos-p{
     margin-top: 9%;
 }
