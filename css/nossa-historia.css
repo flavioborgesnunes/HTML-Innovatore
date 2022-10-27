@@ -56,9 +56,10 @@
     }
     .anos{
         display: inline-block;
-        padding: 0px 20px;
+        padding: 0px 0px;
     }
     .div-anos-mob{
+        word-spacing: 1em;
         visibility:visible;
         width: 100%;
         margin: 30px 0px;
