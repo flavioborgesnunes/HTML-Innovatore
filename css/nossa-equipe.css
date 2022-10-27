@@ -3,20 +3,49 @@
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     margin-top: 0px;
 }
+.container-1{
+    padding: 0 15%;
+}
+.container-1-txt{
+    margin-top: 80px;
+    padding-right: 100px;
+}
+.container-1-txt p{
+    padding-right: 130px;
+}
+.imagem-1{
+    width: 90%;
+}
+.excelencia-p{
+    padding: 0% 22%;
+}
 .diferenciais{
+    text-align: center;
     height: 380px;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .diferenciais h1{
-    margin-top: 70%;
+    margin-left: 0px;
+    padding-right:0px;
+    margin-top: 80%;
+    font-size: 1.354vw;
     color: white;
     text-align: left;
 }
 .diferenciais p{
+    margin-left: 0px;
+    padding-right:0px;
+    font-size: 0.73vw;
+    color: white;
+    text-align: left;
+}
+.diferenciais a{
+    font-size: 0.73vw;
     color: white;
     text-align: left;
 }
@@ -42,10 +71,15 @@
     background-size: cover;
 }
 .div-seguranca{
-    padding-right: 150px;
+    padding-right: 250px;
+    margin-right: 150px;
 }
 .texto-seguranca{
     color: white;
+}
+.texto-seguranca-p{
+    padding-right: 90px;
+    color: rgba(255, 255, 255, .8)
 }
 .promovemos{
     margin-top: 150px;
@@ -66,6 +100,12 @@
 .acidentes{
     border-bottom: 2px solid rgb(212, 205, 205);
 }
+.numeros-estatistica{
+    font-size: 70px;
+}
+.texto-nossa-equipe{
+    padding: 5%;
+}
 
 @media screen and (max-width: 1000px){
     .nossa-equipe{
@@ -78,17 +118,58 @@
         width: 100%;
         height: 550px;
     }
+    .container-1{
+        padding: 0%;
+    }
+    .container-1-txt{
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+    .container-1-txt p{
+        padding-right:0px;
+    }
+    .imagem-1{
+        width: 100%;
+    }
+    .diferenciais{
+        width: 100%;
+        height: auto;
+    }
+    .diferenciais h1{
+        padding-left: 10px;
+        margin-top: 80%;
+        font-size: 22px;
+        color: white;
+        text-align: left;
+    }
+    .diferenciais p{
+        padding: 10px;
+        font-size: 18px;
+        color: white;
+        text-align: left;
+    }
+    .diferenciais a{
+        font-size: 18px;
+        color: white;
+        text-align: left;
+    }
     .dif1{
-        background-image: url('../Images/home/profissionais.jpg');
-        height: 508px;
+        background-image: url('../Images/nossa_equipe/profissionais.jpeg');
     }
     .dif2{
-        background-image: url('../Images/home/seguranca.jpg');
-        height: 508px;
+        background-image: url('../Images/nossa_equipe/segurança.jpeg');
     }
     .dif3{
-        background-image: url('../Images/home/qualidade.jpg');
-        height: 508px;
+        background-image: url('../Images/nossa_equipe/qualidade.jpeg');
+    }
+    .div-seguranca{
+        /* background-image: url('../Images/nossa_equipe/seguranca-mob.png'); */
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .texto-seguranca-p{
+        padding-right: 0px;
+        color: rgba(255, 255, 255, .8)
     }
     .borda-esquerda::after{
         border: none;
