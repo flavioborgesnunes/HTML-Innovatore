@@ -3,7 +3,7 @@
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     margin-top: 0px;
 }
@@ -24,6 +24,12 @@
 }
 .texto-visao{
     color: white;
+    padding-right: 220px;
+}
+.texto-visao-p{
+    font-size: 1.145833vw;
+    color: white;
+    padding-right: 120px;
 }
 .valores{
     margin-top: 150px;
@@ -77,9 +83,22 @@
     .nossa-missao{
         margin: 0;
     }
+    .div-visao{
+        padding-right: 0%;
+    }
     .texto-visao{
-        margin-left: 70px;
+        margin-top: -230px;
+        padding: 0%;
+        font-size: 36px;
+        margin-left: 0px;
         text-align: center;
+    }
+    .texto-visao-p{
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        padding:0px 30px;
+        margin-top: 30px;
     }
     .valores{
         margin-top: 50px;
