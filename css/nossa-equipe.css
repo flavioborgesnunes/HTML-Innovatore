@@ -162,10 +162,15 @@
     .dif3{
         background-image: url('../Images/nossa_equipe/qualidade.jpeg');
     }
+    .seguranca{
+        background-image: url('../Images/nossa_equipe/seguranca-mob.png');
+        width: 100%;
+    }
     .div-seguranca{
         /* background-image: url('../Images/nossa_equipe/seguranca-mob.png'); */
         padding-right: 0px;
         margin-right: 0px;
+        width: 100%;
     }
     .texto-seguranca-p{
         padding-right: 0px;
