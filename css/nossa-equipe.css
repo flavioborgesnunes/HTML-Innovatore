@@ -21,6 +21,7 @@
     width: 90%;
 }
 .excelencia-p{
+    margin-top: 30px;
     padding: 0% 22%;
 }
 .diferenciais{
@@ -86,7 +87,8 @@
     text-align: center;
 }
 .horas-trabalhadas{
-    border-bottom: 2px solid rgb(212, 205, 205);
+    border-bottom: 1px solid rgb(212, 205, 205);
+    padding-bottom: 70px;
 }
 .borda-esquerda::after{
   content:"";
@@ -94,11 +96,11 @@
   z-index:1;
   bottom:20%;
   right:0;
-  border-right:2px solid rgb(212, 205, 205);
+  border-right:1px solid rgb(212, 205, 205);
   height:60%;
 }
 .acidentes{
-    border-bottom: 2px solid rgb(212, 205, 205);
+    border-bottom: 1px solid rgb(212, 205, 205);
 }
 .numeros-estatistica{
     font-size: 70px;

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 .secao-1{
-    background-image: url('../Images/home/home-1.jpg');
+    background-image: url('../Images/home/inage-home-2.jpeg');
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
@@ -25,16 +26,20 @@
     opacity: 1;
 }
 .head-construindo-juntos{
-    margin-left: 0;
+    margin-left: -40px;
     padding-right: 13%;
-    margin-top: 35vh;
+    margin-top: 30vh;
+}
+.titulo-paragrafo{
+    margin-left: -40px;
+    padding-right: 170px;
 }
 .conheca{
     padding: 0 15%;
 }
 .img-home2{
-width:100%;
-margin-right: 100px;
+    width:100%;
+    margin-right: 100px;
 }
 .primeiro-paragrafo{
     padding-left: 8%;
@@ -65,6 +70,10 @@ margin-right: 100px;
 
 .altura-cards-projetos{
     height: 300px;
+}
+.titulo-cards-projetos{
+    font-size: 20px;
+    font-weight: 500;
 }
 .links{
     display: inline-block;
@@ -130,9 +139,12 @@ margin-right: 100px;
 .promovemos{
     margin-top: 150px;
     text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 .horas-trabalhadas{
-    border-bottom: 2px solid rgb(212, 205, 205);
+    border-bottom: 1px solid rgb(212, 205, 205);
+    padding-bottom: 100px;
 }
 .borda-esquerda::after{
     content:"";
@@ -140,7 +152,7 @@ margin-right: 100px;
     z-index:1;
     bottom:20%;
     right:0;
-    border-right:2px solid rgb(212, 205, 205);
+    border-right:1px solid rgb(212, 205, 205);
     height:60%;
 }
 .container-projetos-realizados{
@@ -150,7 +162,7 @@ margin-right: 100px;
     width: 125%;
 }
 .acidentes{
-    border-bottom: 2px solid rgb(212, 205, 205);
+    border-bottom: 1px solid rgb(212, 205, 205);
 }
 .inscreva{
     padding-top: 80px;
@@ -192,8 +204,13 @@ margin-right: 100px;
         height: 550px;
     }  
     .head-construindo-juntos{
-        margin-top: -250px;
+        margin-top: -200px;
         font-size: 36px;
+        margin-left: 0px;
+    }
+    .titulo-paragrafo{
+        margin-left: 0px;
+        padding-right: 0px;
     }
     h2{
         font-size: 32px;
@@ -275,6 +292,7 @@ margin-right: 100px;
     }
     .acidentes{
         border-bottom: none;
+        margin-top: 70px;
     }
     .margem-150{
         margin-top: 20px;
