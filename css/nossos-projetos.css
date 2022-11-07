@@ -45,6 +45,13 @@
     padding-bottom: 75px;
     background-color: rgba(12,39,78, 0.05);
 }
+a{
+    color: #0C274E;
+}
+a:hover{
+    color:#0C274E;
+    text-decoration: none;
+}
 @media screen and (max-width: 1000px){
     .projetos{
         background-image: url('../Images/projetos/projetos-mob.jpg');

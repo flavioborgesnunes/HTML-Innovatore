@@ -16,6 +16,13 @@
     padding-top: 8%;
     padding-left: 5%;
 }
+a{
+    color: #0C274E;
+}
+a:hover{
+    color: #0C274E;
+    text-decoration: none;
+}
 @media screen and (max-width: 1000px){
     body{
         text-align: center;

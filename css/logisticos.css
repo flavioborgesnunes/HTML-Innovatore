@@ -41,6 +41,20 @@
     padding-right: 18%;
     margin-bottom: 75px;
 }
+a{
+    color: white;
+    font-weight: 500;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.padding-direita{
+    margin-top: 25px;
+}
+.padding-direita p{
+    margin-bottom: 35px;
+}
 @media screen and (max-width: 1000px){
     body{
         text-align: center;
